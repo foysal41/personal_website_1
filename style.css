@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: montserrat;
+    background: #f6f6f6;
+
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-type: none;
+    
+}
+ ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.call{
+    background: #000;
+    color: #fff;
+}
+.call p{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.social_link li{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.social_link ul li a{
+    color: #fff;
+    display: block;
+    font-size: 14px;
+}
+
+
+/* Start Memu Area */
+
+nav {
+    
+    
+    height: 80px;
+    width: 100%;
+
+}
+
+label.logo {
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    float: left;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+
+nav ul li a {
+    color: #000;
+    font-size: 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+padding: 5px 10px;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+    
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #000;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+    display: none;
+}
+
+/* Start slider Area */
+
+
+.slider img{
+   width: 100%;
+    height: 85vh;
+}
+
+/* Start Service Area */
+
+.our_service{
+    background:#419ee4;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.our_service h4,
+.our_service p{
+    
+    color: #fff;
+}
+.box{
+    margin-top: 30px;
+}
+.box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.box a{
+    color: #419ee4;
+    padding: 10px 8px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/* Start Recent Post Area */
+
+.recent_post{
+    padding: 30px;
+}
+.recent_post h2::after{
+    content: '';
+    background: #ddd;
+    height: 3px;
+    width: 100%;
+    display: block;
+}
+
+.post_wrap{
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.post_wrap h3{
+    color: #000;
+}
+
+.post_wrap img{
+    height: 150px; 
+    width: 150px;
+    float:left;
+    margin-right: 20px;
+}
+
+
+
+.post_wrap .bttn{
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    color: #888;
+    float: right;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+.recent{
+    display: block;
+}
+
+/* Start  widget Area */
+
+
+.notic_warp{
+    background: #fff;
+}
+.notic_warp h2::after{
+    background: #888;
+    width: 200px;
+    height: 2px;
+}
+.notic_warp ul li{
+    display: block;
+    padding: 10px 20px;
+}
+
+.notic_warp ul li a{
+    display: block;
+    font-weight: 300;
+   
+}
+.topic li{
+    border-bottom: 1px solid #fff;
+}
+
+
+footer{
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 8px 14px;
+    line-height: 30px;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+...................
+
+
